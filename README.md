@@ -26,13 +26,13 @@
 * DDDの世界では用語集がクラスになるように設計を進めていく。
 * 環境設定で悪戦苦闘。以下にそのログを記します。
   * windowlickerのビルド
-    * (https://code.google.com/p/windowlicker/ "windowlickerのサイト")ではjarファイルを配布しておらず、自分でビルドする必要がある。
+    * [windowlickerのサイト](https://code.google.com/p/windowlicker/ "windowlickerのサイト")ではjarファイルを配布しておらず、自分でビルドする必要がある。
     * `svn export http://windowlicker.googlecode.com/svn/trunk`でソースを取得
     * Java_HOMEを設定（`export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_17.jdk/Contents/Home`）
     * `./build.sh`を実行
     * BUILD FAILEDとでるが、jarファイルがbuild/jars以下にできているので、`windowlicker-swing-DEV.jar`と`windowlicker-core-DEV.jar`をクラスパスに通す
   * Openfireのインストール
-    * (http://www.igniterealtime.org/index.jsp "Openfireのサイト")からOpenfireをダウンロードする。
+    * [Openfireのサイト](http://www.igniterealtime.org/index.jsp "Openfireのサイト")からOpenfireをダウンロードする。
     * Macの場合、インストーラを実行すると「システム環境設定」に「Openfire」のアイコンができているのでそれをクリック。
     * 「Open Admin Console」ボタンをクリックし、Webブラウザで設定を行う
     * 設定内容は、93ページのコラムに記載の内容に従う
