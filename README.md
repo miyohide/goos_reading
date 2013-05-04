@@ -25,7 +25,7 @@
 * この章での目標は「商品ひとつで、参加し、入札し、落札する」こと。
 * P145のPriceSourceについて。Javaのenumを使っているのだが、これが「値型」（P63）の例ということ。
   * 議論ではMagickNumberの代わりという話が出たが、P63の解説を読むとより深い意味を持っているように思う。
-* P146にて、「新しいテストが失敗する」の部分で「org.hamcrest.Matcher.describeMismatch」というメッセージが出たら、jarファイルの読み込み順序を変えると幸せになれるかも。詳細はここ（http://stackoverflow.com/questions/7869711/getting-nosuchmethoderror-org-hamcrest-matcher-describemismatch-when-running）を。
+* P146にて、「新しいテストが失敗する」の部分で「org.hamcrest.Matcher.describeMismatch」というメッセージが出たら、jarファイルの読み込み順序を変えると幸せになれるかも。詳細はここ（ http://stackoverflow.com/questions/7869711/getting-nosuchmethoderror-org-hamcrest-matcher-describemismatch-when-running ）を。
 * P148のテスト失敗の状態にもっていけない。とりあえずどんどん先に進む。
 * P149のテストについて。まずはテストが通っている部分においてstateの確認を行う。
 * jMockのstateやallowing/when/thenの記述がなんとも気持ち悪い。
